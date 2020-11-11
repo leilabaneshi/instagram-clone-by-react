@@ -15,7 +15,7 @@ function Post({ username, caption, imageUrl }) {
 
 
             {/**image */}
-            <img className='post__image' src="https://yt3.ggpht.com/a/AATXAJx3PndkWds1bfXd9OCocVVrnPoMOE3cHHjQrx3B=s176-c-k-c0x00ffffff-no-rj" alt="" />
+            <img className='post__image' src={imageUrl} alt="" />
             {/** username + caption*/}
             <h4 className='post__text'><strong>{username}</strong>{caption}</h4>
         </div>
